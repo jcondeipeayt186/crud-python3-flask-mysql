@@ -12,9 +12,9 @@ app.secret_key = 'castagnari'
 
 mysql = MySQL()
 app.config['MYSQL_DATABASE_HOST']='localhost'
-app.config['MYSQL_DATABASE_USER']='jconde'
-#app.config['MYSQL_DATABASE_PASSWORD']='basededatos6c' 
-app.config['MYSQL_DATABASE_PASSWORD']='jc2021'
+app.config['MYSQL_DATABASE_USER']='USUARIO'//CAMBIAR USUARIO POR EL USUARIO DE MYSQL
+#app.config['MYSQL_DATABASE_PASSWORD']='CLAVE' 
+app.config['MYSQL_DATABASE_PASSWORD']='CLAVE'//CAMBIAR CLAVE POR LA CLAVE DE MYSQL
 app.config['MYSQL_DATABASE_DB']='sistema'
 mysql.init_app(app)
 
